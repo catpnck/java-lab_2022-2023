@@ -2,7 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.idea
 
 ### Eclipse ###
 .apt_generated
@@ -30,3 +29,4 @@ bin/
 .DS_Store
 
 java-lab_2022-2023.iml
+/.idea/
