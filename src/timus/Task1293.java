@@ -8,7 +8,7 @@ public class Task1293 {
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        int d = 2*a*b*c;
+        int d = 2 * a * b * c;
         System.out.println(d);
         in.close();
     }
