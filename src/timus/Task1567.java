@@ -21,7 +21,7 @@ public class Task1567 {
         try (Scanner in = new Scanner(System.in)) {
             String s = in.nextLine();
             int sum = 0;
-            for(int i = 0; i < s.length(); i++) {
+            for (int i = 0; i < s.length(); i++) {
                 char c = s.charAt(i);
                 sum += d.get(c);
             }

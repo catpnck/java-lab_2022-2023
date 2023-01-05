@@ -7,7 +7,7 @@ public class Task1877 {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
-        if (a%2==0 || b%2==1){
+        if (a % 2 == 0 || b % 2 == 1) {
             System.out.println("yes");
         } else System.out.println("no");
         in.close();

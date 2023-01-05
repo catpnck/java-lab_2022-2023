@@ -1,6 +1,5 @@
 package timus;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task2066 {
@@ -12,7 +11,7 @@ public class Task2066 {
         a[2] = in.nextInt();
         int b = a[0] - a[2] * a[1];
         int c = a[0] - a[1] - a[2];
-        System.out.println(Math.min(b,c));
+        System.out.println(Math.min(b, c));
         in.close();
     }
 }

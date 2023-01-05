@@ -13,7 +13,7 @@ public class Task1820 {
         } else {
             t = 2 * n / k + 1;
         }
-        if (n<k){
+        if (n < k) {
             t = 2;
         }
         System.out.println(t);

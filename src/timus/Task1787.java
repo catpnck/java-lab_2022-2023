@@ -11,8 +11,8 @@ public class Task1787 {
         for (int i = 0; i < n; i++) {
             int d = in.nextInt();
             p += d - k;
-            if (p<0) {
-                p =0;
+            if (p < 0) {
+                p = 0;
             }
         }
         System.out.println(p);
