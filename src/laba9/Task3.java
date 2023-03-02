@@ -17,16 +17,16 @@ public class Task3 {
     }
 
     private static byte countSum(byte[] bytes) {
-        byte sum = 0;
+        var sum = 0;
         for (var num : bytes) {
-            byte newSum = (byte) (sum + num);
-            if (newSum < sum) {
-                throw new IllegalArgumentException("Сумма находится за пределами типа byte");
-            }
             sum += num;
         }
 
-        return sum;
+        if (sum < Byte.MIN_VALUE || sum > Byte.MAX_VALUE) {
+            throw new IllegalArgumentException("Сумма находится за пределами типа byte");
+        }
+
+        return (byte) sum;
     }
 
     private static byte[] readBytes() {
